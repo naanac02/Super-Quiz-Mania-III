@@ -24,7 +24,7 @@ def pselect():
         p4 = input("""What's your name p4?
         """)
     else:
-        print("Sorry, "+str(players)+" is not a valid number")
+        print("Sorry, "+str(players)+" is not a valid character")
         pselect()
     print("Welcome all players!")
     input("Press any key to continue...")
