@@ -1,2 +1,10 @@
 # Super-Quiz-Mania-III
-This is my ongoing project, my project being Super Quiz Mania III. It is not yet complete.
+ ##To-Do List
+1. Create the entire game
+
+2. Add questions
+
+
+##Finished Tasks
+
+1. Create intro & name system
