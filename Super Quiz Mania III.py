@@ -7,6 +7,7 @@ def pselect():
         """)
         p2 = input("""What about you p2?
         """)
+        print("Welcome "+str(p1)+" and "+str(p2))
     elif players == "3":
         p1 = input("""What's your name p1?
         """)
@@ -14,6 +15,7 @@ def pselect():
         """)
         p3 = input("""How about p3?
         """)
+        print("Welcome "+str(p1)+", "+str(p2)+", and "+str(p3))
     elif players == "4":
         p1 = input("""What's your name p1?
         """)
@@ -23,9 +25,10 @@ def pselect():
         """)
         p4 = input("""What's your name p4?
         """)
+        print("Welcome "+str(p1)+", "+str(p2)+", "+str(p3)+", and "+str(p4))
     else:
         print("Sorry, "+str(players)+" is not a valid character")
         pselect()
-    print("Welcome all players!")
     input("Press any key to continue...")
 pselect()
+
